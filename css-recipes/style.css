@@ -65,6 +65,9 @@ float: left;
 
 section {
     color: #252b2d;
+    height: 1030px;
+    margin-bottom: 4em;
+
 }
 
 .info {
@@ -188,11 +191,11 @@ article h5 {
     width: 66.6%;
     float: right;
     padding-right: 5%;
-    margin-top: 2em;
 }
 
 .portfolio header {
     margin-left: 40px;
+    margin-top: 2em;
 }
 
 .portfolio-images {
