@@ -112,11 +112,27 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #cc9900;
+    color: #dab33e;
 }
 
 .social-icons {
     padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.social-icons .fab {
+    color: #dab33e;
+    font-size: 21px;
+}
+
+.social-icons a {
+    transition: ease-out .3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-10px);
 }
 
 main {
@@ -508,6 +524,20 @@ footer article > img {
     left: calc(50% - 60px);
 }
 
-footer article:last-of-type > img {
-    left: calc(50% - 44px);
+.social-icons-footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    bottom: 5px;
+    left: calc(50% - 50px);
+    font-size: 16px;
+}
+
+.social-icons-footer .fab {
+    transition: .3s ease-out;
+}
+
+.social-icons-footer .fab:hover {
+    color: #dab33e;
 }
