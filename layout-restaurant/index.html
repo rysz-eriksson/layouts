@@ -205,6 +205,11 @@
             </article>
         </section>
         <section class="reservations">
+            <div class="images">
+                <img src="images/reservations-pic1.png" alt="dish-main">
+                <img src="images/reservations-pic2.png" alt="dessert">
+            </div>
+            <div class="content">
             <article>
                 <h2 class="yellow">Just the right food</h2>
                 <div class="divider">
@@ -213,6 +218,32 @@
                    <p class="black">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p>
                     <p class="black">Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
             </article>
+            <form action="" method="get">
+                <div class="form-row">
+                    <label for="full-name">Name</label>
+                    <input id="full-name" name="fullName" type="text" placeholder="your name *" required>
+                </div>
+                <div class="form-row">
+                    <label for="e-mail">E-mail</label>
+                    <input id="e-mail" name="email" type="email" placeholder="your email *" required>
+                </div>
+                <div class="form-row">
+                    <label for="party-date">Date</label>
+                    <input id="party-date" name="partyDate" type="datetime-local" placeholder="date *" required>
+                </div>
+                <div class="form-row">
+                    <label for="party-number">Party number</label>
+                    <select id="party-number" name="partyNumber">
+                        <option>party number</option>
+                        <option value="1234">1234</option>
+                        <option value="1235">1235</option>
+                        <option value="1236">1236</option>
+                        <option value="1237">1237</option>
+                    </select>
+                </div>
+                <button type="submit">Book now!</button>
+            </form>
+            </div>
         </section>
     </main>
     <footer>
