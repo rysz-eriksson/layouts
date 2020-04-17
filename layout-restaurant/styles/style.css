@@ -123,11 +123,11 @@ header nav ul li a::before {
     content: '';
     background-color: #dab33e;
     top: -66px;
-    left: -50%;
+    left: -25%;
 }
 
 header .active::before {
-    width: 200%;
+    width: 150%;
 }
 
 .social-icons {
